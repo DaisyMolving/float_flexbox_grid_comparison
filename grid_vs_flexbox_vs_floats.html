@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Different Layouts</title>
+    <link rel="stylesheet" href="grid_vs_flexbox_vs_floats.css" />
+  </head>
+  <body>
+    <h1 class="page-title">Using Different Layouts</h1>
+
+    <section class="float-layout">
+      <header>
+        <h2 class="float-title layout-type">CSS Float</h2>
+      </header>
+      <nav class="float-nav"></nav>
+      <section class="float-left half-width">
+        <section class="float-section inner-section"></section>
+        <article class="float-article"></article>
+      </section>
+      <aside class="float-aside half-width float-right"></aside>
+      <footer class="float-footer"></footer>
+    </section>
+
+    <section class="flexbox-layout">
+      <header>
+        <h2 class="layout-type">CSS Flexbox</h2>
+      </header>
+      <nav class="flexbox-nav"></nav>
+      <section class="flexbox-content">
+        <section class="half-width">
+          <section class="flexbox-section inner-section"></section>
+          <article class="flexbox-article"></article>
+        </section>
+        <section class="half-width">
+          <aside class="flexbox-aside"></aside>
+        </section>
+      </section>
+      <footer class="flexbox-footer"></footer>
+    </section>
+
+    <section class="grid-layout">
+      <header>
+        <h2 class="layout-type">CSS Grid</h2>
+      </header>
+      <nav class="grid-nav"></nav>
+      <section class="grid-content">
+        <section class="grid-left">
+          <section class="grid-section inner-section"></section>
+          <article class="grid-article"></article>
+        </section>
+        <aside class="grid-aside"></aside>
+      </section>
+      <footer class="grid-footer"></footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+}
+
+header {
+  height: 50px;
+}
+
+nav {
+  height: 50px;
+}
+
+article {
+  height: 250px;
+}
+
+footer {
+  height: 50px
+}
+
+.half-width {
+  width: 50%;
+}
+
+.inner-section {
+  height: 250px;
+}
+
+.page-title {
+  height: 50px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.float-layout {
+  height: 650px;
+  margin: 10px 0px 30px 0px;
+  position: relative;
+}
+
+.float-title {
+  margin: 0px;
+  padding-top: 20px;
+}
+
+.float-nav {
+  background-color: orange;
+}
+
+.float-section {
+  background-color: pink;
+}
+
+.float-article {
+  background-color: orange;
+}
+
+.float-footer {
+  background-color: pink;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-aside {
+  background-color: red;
+  height: 500px;
+}
+
+
+.flexbox-layout {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 30px 0px;
+}
+
+.flexbox-nav {
+  background-color: limegreen;
+}
+
+.flexbox-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.flexbox-section {
+  background-color: gold;
+}
+
+.flexbox-article {
+  background-color: limegreen;
+}
+
+.flexbox-aside {
+  background-color: lightgreen;
+  height: 500px;
+}
+
+.flexbox-footer {
+  background-color: gold;
+}
+
+
+.grid-layout {
+  display: grid;
+  margin-top: 10px;
+}
+
+.grid-nav {
+  background-color: dodgerblue;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-section {
+  background-color: royalblue;
+}
+
+.grid-article {
+  background-color: dodgerblue;
+}
+
+.grid-aside {
+  background-color: deepskyblue;
+}
+
+.grid-footer {
+  background-color: royalblue;
+}
